@@ -1,3 +1,4 @@
-for (let index = 0; index <= 10; index++) {
-    console.log('O numero atual é o ' +index )
+for (let i = 0; i <=10; i++) {
+    const dobro = i * 2
+    console.log('O dobro do numero ' + i + ' é ' +dobro)
 }

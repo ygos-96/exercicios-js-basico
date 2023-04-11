@@ -1,7 +1,7 @@
-const boletoPago = false
+const vaiSeHospedar = confirm('Seja Bem-Vindo(a), aventureiro(a)! Gostaria de pagar R$50,00 para passar a noite na nossa hospedagem?')
 
-if(boletoPago){
-    alert('O boleto esta pago!')
-}else if(boletoPago === false){
-    alert('O boleto não esta pago!')
+if(vaiSeHospedar){
+    alert('Ótimo! Nós temos as melhores camas de toda a região')
+}else{
+    alert('Que pena! Você parecia ser uma pessoa mais legal!')
 }
